@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="widtd=device-width,initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="Author" content="Reza salmanian">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-
+        awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/general/style.css">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/594350161c.js" crossorigin="anonymous"></script>
+
+        <title>Documentation</title>
+    </head>
+    <!-- Top of the page-->
+    <body>
+        <!-- Here is the main header that is used across all the pages of our website -->
+
+        <header>
+        
+        <h1> welcome to my home page </h1>
+        </header>
+        Current Date and Time:
+        <input type="text" id="currentDateTime">
+        <br><br>
+        <script>
+            var today = new Date();
+            var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            var dateTime = date+' '+time;
+            document.getElementById("currentDateTime").value = dateTime; 
+     
+        </script>
+       
+            
+        <!-- A Search form is another common non-linear way to navigate through a website. -->
+        
+        <!--side navigation-->
+        
+        <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a>
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope-o"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-flask"></i></a>
+        <a href="about.html"> About </a>
+        </div>
+       
+       
+         
+        <!-- Here is the page's main content -->
+    <main>
+        <article>
+            <h2 id="top">Experiment in HTML5/CSS3 and javascript</h2>
+        </article>
+        <div class="background">
+                <img src="florian-olivo.jpg" alt="codding is fun " style="width:500px;height:300px;">
+        </div>
+        <div class="transbox">
+        <strong>Web and SoftwaerDeveloper Roles</strong><br><br>
+        <p>
+            What is software developer role?<br>
+            Image result for about software developer<br>
+            The role of a software developer engages in<br>
+            identifying, designing, installing and testing<br>
+            a software system they have built for a company<br>
+            from the ground up. It can range from creating <br>
+            internal programmes that can help businesses be<br>
+            more efficient to producing systems that can be<br>
+            sold on the open market.
+        </p>
+        </div>
+        <br>
+        
+    </main>   
+    </body>
+</html>
